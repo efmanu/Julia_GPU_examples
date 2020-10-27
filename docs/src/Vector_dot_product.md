@@ -24,7 +24,7 @@ We will use a vector dot product to explore some of the ideas introduced above. 
 As before, we begin our script by loading the Julia packages we need to write GPU compatible code.
 
 ```
-using CuArrays, CUDAnative, CUDAdrv
+using CUDA
 ```
 
 Next, we need to write the kernel. It is a lot to take in, but do not worry, we will go through it step by step.
